@@ -142,6 +142,33 @@ linear_algebra/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear_algebra.dir\build.make CMakeFiles/linear_algebra.dir/build
 .PHONY : linear_algebra/fast
 
+Basic_class.obj: Basic_class.cpp.obj
+
+.PHONY : Basic_class.obj
+
+# target to build an object file
+Basic_class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear_algebra.dir\build.make CMakeFiles/linear_algebra.dir/Basic_class.cpp.obj
+.PHONY : Basic_class.cpp.obj
+
+Basic_class.i: Basic_class.cpp.i
+
+.PHONY : Basic_class.i
+
+# target to preprocess a source file
+Basic_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear_algebra.dir\build.make CMakeFiles/linear_algebra.dir/Basic_class.cpp.i
+.PHONY : Basic_class.cpp.i
+
+Basic_class.s: Basic_class.cpp.s
+
+.PHONY : Basic_class.s
+
+# target to generate assembly for a file
+Basic_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linear_algebra.dir\build.make CMakeFiles/linear_algebra.dir/Basic_class.cpp.s
+.PHONY : Basic_class.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linear_algebra
+	@echo ... Basic_class.obj
+	@echo ... Basic_class.i
+	@echo ... Basic_class.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/linear_algebra/Basic_class.cpp">
+			<Option target="linear_algebra"/>
+		</Unit>
+		<Unit filename="D:/linear_algebra/Basic_class.h">
+			<Option target="linear_algebra"/>
+		</Unit>
 		<Unit filename="D:/linear_algebra/main.cpp">
 			<Option target="linear_algebra"/>
 		</Unit>

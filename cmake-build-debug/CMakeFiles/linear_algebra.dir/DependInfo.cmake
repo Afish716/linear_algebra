@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/linear_algebra/Basic_class.cpp" "D:/linear_algebra/cmake-build-debug/CMakeFiles/linear_algebra.dir/Basic_class.cpp.obj"
   "D:/linear_algebra/main.cpp" "D:/linear_algebra/cmake-build-debug/CMakeFiles/linear_algebra.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

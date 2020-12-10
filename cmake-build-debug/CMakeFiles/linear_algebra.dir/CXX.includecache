@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/linear_algebra/Basic_class.cpp
+Basic_class.h
+D:/linear_algebra/Basic_class.h
+
+D:/linear_algebra/Basic_class.h
+iostream
+-
+
+D:/linear_algebra/main.cpp
+iostream
+-
+Basic_class.h
+D:/linear_algebra/Basic_class.h
+

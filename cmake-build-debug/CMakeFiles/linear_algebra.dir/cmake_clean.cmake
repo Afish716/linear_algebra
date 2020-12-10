@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/linear_algebra.dir/Basic_class.cpp.obj"
   "CMakeFiles/linear_algebra.dir/main.cpp.obj"
   "liblinear_algebra.dll.a"
   "linear_algebra.exe"
