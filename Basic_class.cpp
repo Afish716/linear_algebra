@@ -21,7 +21,7 @@ Martix::Martix(int m,int n):_m(m),_n(n){
      new(this)Martix(m,n,0);
 }
 
-Martix* operator+(Martix const& x1, Martix const& x2){
+/*Martix* operator+(Martix const& x1, Martix const& x2){
     int m1=x1._m,n1=x1._n;
     int m2=x2._m,n2=x2._m;
     if (m1!=m2||n1!=n2){
@@ -38,6 +38,13 @@ Martix* operator+(Martix const& x1, Martix const& x2){
         }
     }
     return resulet;
+}*/
+
+Martix::~Martix() {
+    for (int i = 0; i <_m ; ++i) {
+        delete [] pointer[i];
+    }
+    delete pointer;//析构函数
 }
 
 
